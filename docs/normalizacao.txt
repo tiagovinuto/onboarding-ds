@@ -1,0 +1,29 @@
+- Tabela de Filmes (movies): armazena informações gerais sobre os filmes, incluindo título, ano de lançamento e duração. Esta tabela pode ter as seguintes colunas:
+    id (chave primária): identificador único do filme
+    title: título do filme
+    year: ano de lançamento do filme
+    duration: duração do filme em minutos
+
+- Tabela de Gêneros (genres): armazena informações sobre os gêneros dos filmes. Cada gênero é representado como uma linha na tabela. Esta tabela pode ter as seguintes colunas:
+    id (chave primária): identificador único do gênero
+    name: nome do gênero
+
+- Tabela de Atores (actors): armazena informações sobre os atores que aparecem nos filmes. Cada ator é representado como uma linha na tabela. Esta tabela pode ter as seguintes colunas:
+    id (chave primária): identificador único do ator
+    name: nome do ator
+
+- Tabela de Papéis (roles): armazena informações sobre os papéis que os atores desempenham nos filmes. Cada papel é representado como uma linha na tabela. Esta tabela pode ter as seguintes colunas:
+    id (chave primária): identificador único do papel
+    movie_id (chave estrangeira): identificador do filme que o papel está associado
+    actor_id (chave estrangeira): identificador do ator que interpreta o papel
+    character: nome do personagem que o ator interpreta no filme
+
+- Tabela de Classificações (ratings): armazena informações sobre as classificações dos filmes. Cada classificação é representada como uma linha na tabela. Esta tabela pode ter as seguintes colunas:
+    id (chave primária): identificador único da classificação
+    movie_id (chave estrangeira): identificador do filme que a classificação está associada
+    source: fonte da classificação (por exemplo, IMDb)
+    rating: valor da classificação
+
+Ao dividir os dados em várias tabelas, estamos seguindo os princípios de normalização de banco de dados para evitar redundância de dados
+e facilitar a manutenção e análise posterior. As tabelas estão relacionadas entre si através de chaves estrangeiras, permitindo consultas eficientes
+e precisas sobre os dados.

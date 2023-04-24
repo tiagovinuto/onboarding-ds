@@ -1,0 +1,28 @@
+Sobre o IMDb
+
+IMDb, também conhecida como Internet Movie Database, é uma base de dados online de informação sobre cinema TV, música e games, hoje pertencente à Amazon.
+
+Sobre o IMDb
+
+IMDb (um acrônimo para Internet Movie Database ) [2] é um banco de dados on-line de informações relacionadas a filmes, séries de televisão, podcasts, 
+vídeos caseiros, videogames e conteúdo de streaming on-line - incluindo elenco, equipe de produção e biografias pessoais, resumos de enredos, curiosidades,
+avaliações e comentários de fãs e críticos. Desde 1998 pertence à Amazon. 
+
+Outras informações:
+
+Em março de 2022, o banco de dados continha cerca de 10,1 milhões de títulos (incluindo episódios de televisão) e 11,5 milhões de registros pessoais.
+[3] Além disso, o site tinha 83 milhões de usuários registrados. Os quadros de mensagens do site foram desativados em fevereiro de 2017.
+
+Em 12 de fevereiro de 2023, o IMDb é o 54º site mais visitado do mundo, de acordo com o classificador de sites Alexa . [4]
+
+Sobre os Datasets
+
+**Dataset de Filmes**
+
+Contém 3 colunas i.e., movieId, title belonging to that movieId and genres
+
+**Dataset de classificações**
+
+Contém 4 colunas i.e., userId, movieId, rating, timestamp
+
+Para mais detalhes sobre o IMDb: https://en.wikipedia.org/wiki/IMDb
